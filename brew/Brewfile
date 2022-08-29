@@ -1,0 +1,40 @@
+# https://github.com/Homebrew/homebrew-bundle
+# specify a directory to install
+cask_args appdir: '/Applications'
+
+# Formulae
+brew 'git'
+brew 'tree'
+brew 'node'
+brew 'wget'
+brew 'java'
+brew 'go'
+brew 'python3'
+brew 'mas'
+brew 'aws-sam-cli'
+brew 'awscli'
+brew 'gradle'
+brew 'maven'
+brew 'micronaut'
+brew 'task'
+brew 'unzip'
+brew 'zsh'
+brew 'zsh-autosuggestions'
+brew 'yarn'
+brew 'starship'
+brew 'typora'
+
+# Casks
+cask 'google-chrome'
+cask 'slack'
+cask 'spotify'
+cask 'docker'
+cask 'font-ibm-plex'
+cask 'iterm2'
+cask 'jetbrains-toolbox'
+cask 'postman'
+cask 'visual-studio-code'
+cask 'licecap'
+
+#Check out
+cask 'dash'
